@@ -9,7 +9,14 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "appleTeamId": "BV5WQP7Z9C",
+      "bundleIdentifier": "dev.codeyosef.AstroRatingProject",
+      "entitlements": {
+        "com.apple.security.application-groups": [
+          "group.codeyosef.AstroRatingProject"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +26,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "dev.codeyosef.AstroRatingProject"
     },
     "web": {
       "output": "static",
@@ -38,7 +46,8 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "@bacons/apple-targets"
     ],
     "experiments": {
       "typedRoutes": true,
